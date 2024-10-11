@@ -1,0 +1,294 @@
+@font-face {
+    font-family: IRANMarker;
+    src: url('../fonts/IRANMarker.ttf');
+}
+*{
+    font-family: IRANMarker ;
+}
+a.nav-link{
+    margin: 0px 10px;
+    color: #333 !important;
+}
+.dropdown-menu.show{
+    border-bottom: 3px solid #031cbe;
+    border-radius: 5px 5px 0px 0px;
+}
+a.nav-link:hover{
+    border-bottom: 2px solid rgb(128, 99, 162);
+}
+.search{
+    margin-top: 70px;
+    margin-right: 25%;
+}
+input.input{
+    width: 50%;
+    display: inline;
+    border-radius: 0px 5px 5px 0px;
+}
+input.sub{
+    margin-right: -5px;
+    border-radius: 5px 0px 0px 5px;
+    color: #fff;
+}
+.head-image img{
+    border-radius: 10px;
+    transition: .6s all;
+    box-shadow: 1px 1px 1px 1px rgb(199, 199, 199);
+}
+.head-image{
+    margin-top: 20px;
+}
+.head-image img:hover{
+    opacity:.4;
+    transition: .6s all;
+
+}
+
+.content-text{
+    margin-top: 80px;
+    padding: 20px 70px;
+    background-color: #ded3e0;
+    margin-bottom: 70px;
+    border-right: 6px solid rgb(128, 99, 162);
+    border-left: 6px solid rgb(128, 99, 162);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
+.content-text a{
+    color: #031cbe;
+}
+a:hover{
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 95%;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+.c{
+    width: 92%;
+    display: inline;
+    border-radius: 0px 5px 5px 0px;
+    margin-right: -75px;
+}
+input.mobile{
+    width: 75%;
+    display: inline;
+     border-radius: 0px 5px 5px 0px;
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: #ded3e0;
+    padding: 15px;
+    border-right: 5px solid rgb(128, 103, 154);
+    border-left: 5px solid rgb(128, 103, 154);
+
+}
+.footer a{
+    color: #031cbe;
+}
+ul{
+    list-style-type: none;
+}
+.footer p{
+    color: #162f39;
+    margin-right:15px;
+    margin-top: 7px;
+}
+footer{
+    text-align: center;
+    margin: 20px 0px;
+}
+.boxes{
+    box-shadow: 2px 2px 2px 2px #a9d099;
+    padding: 8px;
+    border-radius: 10px;
+    transition: .4s;
+    margin-top: 20px;
+}
+.boxes span{
+    opacity: .6;
+}
+.boxes img{
+    border-radius: 7px;
+}
+.boxes p{
+    margin: 5px 0px;
+    text-align: center;
+}
+.boxes:hover{
+    margin-top: 10px;
+    transition: .4s;
+}
+.boxes img{
+    transition: .4s;
+    margin-bottom: 8px;
+}
+.boxes img:hover{
+    opacity: .5;
+    transition: .4s;
+}
+h4#title{
+    margin-bottom: 30px;
+    border-bottom: 3px solid #92c49b;
+    display: inline-block;
+}
+.co-view svg{
+    margin: 10px;
+}
+.blog{
+    border: 1px solid #333333;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.blog img{
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.blog h1{
+    font-size: 30px;
+}
+.writer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+p#tag{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.tags a{
+    padding: 7px;
+    background-color: #2b40c6;
+    color: #e7f1ff;
+    margin-right: 10px;
+    border-radius: 7px;
+
+}
+.tags{
+    box-shadow: 2px 2px 1px 2px rgb(147, 131, 163);
+    padding: 30px;
+    border-radius: 5px;
+}
+.writer-info{
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px rgb(147, 131, 163);
+    padding: 30px;
+    border-radius: 10px;
+}
+.writer-info a{
+    font-size: 20px;
+    display: block;
+}
+.comment{
+    margin-top: 40px;
+    box-shadow: 2px 2px 2px 2px rgb(147, 131, 163);
+    padding: 20px;
+    border-radius: 10px;
+}
+.comment h5{
+    margin-bottom: 25px;
+}
+.user-comment{
+    box-shadow: 1px 1px 1px 1px rgb(128, 103, 154);
+    padding: 7px;
+    border-radius: 5px;
+}
+h1#welcome{
+    margin: 30px 0px;
+    text-align: center;
+}
+.register{
+    margin-top: 60px;
+}
